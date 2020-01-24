@@ -1,0 +1,69 @@
+p {
+    line-height: 1.5;
+}
+
+#page_container {
+    padding-top: 87px;
+}
+
+.services_header {
+    padding-bottom: 36px;
+}
+
+.services-header-img {
+    margin-bottom: 30px;
+}
+
+#services_content {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    height: 918px;
+    padding: 40px 0;
+    padding-bottom: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-around;
+}
+
+.service_card {
+    width: 419px;
+    height: 250px;
+    background: #F4F3F4;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.learn_more_link {
+    display: block;
+    background: #fff;
+    width: 155px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-top: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.learn_more_link:hover {
+    background: #ccc;
+}
+
+.facts {
+    padding: 40px 0;
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.facts div ul {
+    list-style-type: disc;
+    margin: 10px;
+    padding: 10px;
+    line-height: 2;
+}
+
+
+
