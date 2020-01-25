@@ -12,10 +12,7 @@ p {
 
 .services-header-img {
     margin-bottom: 30px;
-<<<<<<< HEAD
-=======
     width: 100%;
->>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 }
 
 #services_content {
@@ -69,8 +66,6 @@ p {
     line-height: 2;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 415px) {
     #page_container {
         padding: 110px 10px;
@@ -118,6 +113,5 @@ p {
     }
 }
 
->>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 
 
