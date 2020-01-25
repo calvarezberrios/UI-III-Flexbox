@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 #page_container {
 	position: relative;
-	width:71%;
+	width:54%;
 	margin: 0 auto;
 	padding: 135px 75px 0 75px;
 	
@@ -83,7 +83,7 @@ header {
 }
 
 nav { 
-	width: 71%; 
+	width: 54%; 
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-evenly;
@@ -177,7 +177,7 @@ nav a:hover {
 	border: 1px solid black;
 	position: relative;
 	margin: 0 auto;
-	width: 150px;
+	width: 60%;
 	padding: 7px;
 	text-decoration: none;
 	color: black;
@@ -191,7 +191,8 @@ nav a:hover {
 	position: relative;
 	margin-left: 6px;
 	text-align: center;
-	background: url('../img/header-img.png') no-repeat center;	
+	background: url('../img/header-img.png') no-repeat center;
+	background-size: 80%;	
 }
 
 h2 {
@@ -255,10 +256,9 @@ footer a {
 	text-align: center;
 	position: relative;
 	top: 40px;
-	padding-bottom: 40px; */
+	padding-bottom: 40px; 
 	font-size: 13px;
 }
-
 
 @media screen and (max-width: 415px) {
 	#full-page-nav {
