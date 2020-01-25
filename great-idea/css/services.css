@@ -12,6 +12,10 @@ p {
 
 .services-header-img {
     margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 }
 
 #services_content {
@@ -65,5 +69,55 @@ p {
     line-height: 2;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 415px) {
+    #page_container {
+        padding: 110px 10px;
+    }
+    #services_content {
+        height: 1070px;
+        align-content: space-around;
+        padding-bottom: 30px;
+    }
+    .service_card {
+        width: 48%;
+        height: auto;
+    }
+    .service_card p {
+        font-size: 11px;
+    }
+
+    .facts div p {
+        font-size: 11px;
+    }
+
+    .facts div {
+        width: 100%;
+        padding: 10px;
+    } 
+
+    .facts div ul li {
+        font-size: 11px;
+    }
+
+    
+    .services-info-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #services_content {
+        height: 1320px;
+    }
+    .service_card a {
+        width: 100px;
+        padding: 5px 0;
+        font-size: 11px;
+    }
+}
+
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 
 

@@ -65,9 +65,15 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 #page_container {
 	position: relative;
+<<<<<<< HEAD
 	width:54%;
 	margin: 0 auto;
 	padding: 110px 75px 0 75px;
+=======
+	width:71%;
+	margin: 0 auto;
+	padding: 135px 75px 0 75px;
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 	
 }
 
@@ -83,7 +89,11 @@ header {
 }
 
 nav { 
+<<<<<<< HEAD
 	width: 54%; 
+=======
+	width: 71%; 
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-evenly;
@@ -100,7 +110,12 @@ nav a {
 
 } 
 
+<<<<<<< HEAD
 nav a:last-child {
+=======
+#full-page-nav a.logo-link,
+#mobile-nav a.logo-link {
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 	
 	position: relative;
     padding: 0;
@@ -108,11 +123,19 @@ nav a:last-child {
 	text-align: right;
 	background: url('../img/logo.png') no-repeat center;
 	background-position-x: 0px;
+<<<<<<< HEAD
 	width: 159px;
 	height: 45px;
 	filter: invert(1); 
 }
 #logo-link img {
+=======
+	min-width: 159px;
+	height: 45px;
+	filter: invert(1); 
+}
+.logo-link img {
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 	position: absolute;
 	margin-left: 0px;
 	object-fit: cover;
@@ -121,7 +144,11 @@ nav a:last-child {
 	height: 42px; 
 }
 
+<<<<<<< HEAD
 #logo-link:hover img {
+=======
+.logo-link:hover img {
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 	animation-name: idea;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
@@ -139,6 +166,13 @@ nav a:hover {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+#mobile-nav {
+	display: none;
+}
+
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 
 .hero_header {
 	display: flex;
@@ -190,11 +224,19 @@ nav a:hover {
 }
 
 h2 {
+<<<<<<< HEAD
 	font-size: 24px;
 }
 
 p, a {
 	font-size: 15px;
+=======
+	font-size: 18px;
+}
+
+p, a {
+	font-size: 12px;
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.3;
 }
@@ -211,6 +253,14 @@ p, a {
 	background-size: contain;
 }
 
+<<<<<<< HEAD
+=======
+#content div article {
+	padding: 10px;
+	text-align: justify;
+}
+
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 .content-top {
 	display: flex;
 	flex-flow: row nowrap;
@@ -225,11 +275,18 @@ p, a {
 	display:flex;
 }
 
+<<<<<<< HEAD
 /* .content-bottom article {
 	
 	width: 33%;
 } */
 
+=======
+.content-bottom article {
+	
+	width: 33%;
+}
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
 
 footer {
 	position: relative;
@@ -251,4 +308,80 @@ footer a {
 }
 
 
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 415px) {
+	#full-page-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		height: 110px;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px 0 0 0;
+	}
+	#mobile-nav div {
+		width: 100%;
+		margin-top: -32px;
+		background: #fff;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+	}
+	#mobile-nav a {
+		color: #000;
+		font-size: 12px;
+		padding: 0 5px;
+	}
+
+	#mobile-nav a:hover {
+		text-decoration: underline;
+	}
+
+	#page_container {
+		width: 100%;
+		padding: 0;
+	}
+
+	#page_container .hero_header {
+		justify-content: center;
+		align-items: center;
+		padding-top: 100px;
+		height: 350px;
+		
+	}
+	.hero-header div {
+		width: 100%;
+	}
+
+	.hero-title h1 {
+		font-size: 36px;
+	}
+	.hero-img {
+		background-size: 90%;
+	}
+
+	#content {
+		height: auto;
+		padding: 60px 10px;
+	}
+	
+	.content-bottom {
+		padding-top: 280px;
+	}
+	footer {
+		padding: 40px 25px;
+	}
+	
+}
+
+@media screen and (max-width: 320px){
+	#mobile-nav a {
+		font-size: 8px;
+	}
+}
+>>>>>>> d847f0e267f157a2a03d16597bb123a25873ac43
